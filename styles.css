@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  background-image: url("assets/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo {
+  text-align: center;
+  color: rgba(216, 216, 29, 0.856);
+  font-size: 54px;
+  padding: 10px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tarjeta-pokemon {
+  background-color: rgba(255, 255, 255, 0.678);
+  margin: 5px;
+  border-radius: 5%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.imagen-pokemon {
+  width: 120px;
+  height: 120px;
+}
+
+.texto-pokemon {
+  color: rgb(100, 11, 15);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.texto-pokemon::first-letter {
+  text-transform: uppercase;
+}
